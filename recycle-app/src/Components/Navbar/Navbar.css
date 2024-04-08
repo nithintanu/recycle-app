@@ -1,0 +1,103 @@
+body {
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #FFFDCB;
+}
+
+.n-wrapper {
+
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: #E1F0DA;
+    margin-left: 150px;
+    margin-right: 50px;
+    padding-left: 40px;
+    border-radius: 25px;
+    margin-top: 1rem;
+    border: 3px solid white;
+}
+
+
+
+
+.n-left {
+    align-items: center;
+    display: flex;
+    font-weight: bold;
+    font-size: 30px;
+    position: relative;
+    z-index: 1;
+    
+}
+
+.n-right {
+    display: flex;
+    gap: 2rem;
+    margin-right: 4rem;
+
+}
+
+.n-right>ul {
+    display: flex;
+    gap: 3rem;
+    font-size: 20px;
+    margin-right: 4rem;
+}
+
+.n-right>ul>li:hover {
+    cursor: pointer;
+    color: #E8751A;
+    font-weight: bold;
+
+
+}
+
+.dropdown {
+    margin-bottom: 20px;
+    border-radius: 4rem;
+    align-items: center;
+
+}
+
+.dropdown select {
+    padding: 4px;
+    font-size: 13px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    align-items: center;
+}
+
+.profile {
+    margin-left: 70px;
+    display: flex;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    align-items: center;
+    background-color: beige;
+
+
+}
+
+.img1 {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.logoimg {
+    position: absolute;
+    transform: translateY(-50%);
+    z-index: 0;
+    height: 50px;
+    width: 50px;
+}
+
+.img2 {
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+    margin-left: 110px;
+}
